@@ -23,6 +23,7 @@ const Photo = ({
 }) => {
   const imgStyle = { margin: margin, display: "block" };
   if (direction === "column") {
+    // hello!
     imgStyle.position = "absolute";
     imgStyle.left = left;
     imgStyle.top = top;
